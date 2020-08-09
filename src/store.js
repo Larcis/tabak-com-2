@@ -313,7 +313,13 @@ let kozel = [
     {
         "price": "",
         "imgs": [
-            { url: require("./images/kozel/20.JPG")}
+            { url: require("./images/kozel/20.jpeg")}
+        ]
+    },
+    {
+        "price": "",
+        "imgs": [
+            { url: require("./images/kozel/24.jpeg")}
         ]
     },
 
