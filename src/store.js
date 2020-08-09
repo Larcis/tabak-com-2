@@ -468,7 +468,8 @@ let soyut_cicek = [
 
 
 categories.push(
-    <Category 
+    <Category
+        key="1111" 
         data={animal_serisi}
         name="Animal Serisi"
         desc="22 cm porselen tabak üstü el boyaması."
@@ -477,6 +478,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="2222"
         data={istanbul}
         name="Istanbul Serisi"
         desc="Rüya kent hediye etmek ister misiniz?"
@@ -485,6 +487,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="3333"
         data={kozel}
         name="Kisiye Özel Serisi"
         desc="Istediginiz fotografın tabaga el çizimi karakterlere dönüsmesini ister misiniz? 
@@ -493,7 +496,8 @@ categories.push(
     />
 );
 categories.push(
-    <Category 
+    <Category
+        key="4444" 
         data={imge}
         name="Imge Serisi"
         desc="Ünlü ressamımız Ergin Inan'ın eserlerinden esinlenilmistir."
@@ -502,6 +506,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="5555"
         data={soyut_cicek}
         name="Soyut Çiçek Serisi"
         desc="Dogadan ilhamla"
@@ -509,7 +514,8 @@ categories.push(
     />
 );
 categories.push(
-    <Category 
+    <Category
+        key="6666" 
         data={earth}
         name="Earth Serisi"
         desc="Dünya serisi tabaklara, isim bas harflerinizi yazdırabilirsiniz."
@@ -518,6 +524,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="7777"
         data={cicek}
         name="Çiçek Serisi"
         desc="Evinize renk katacak güzeller burada."
@@ -526,6 +533,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="8888"
         data={girls}
         name="Girlsss Serisi"
         desc="Tabakta yüzünüz olsun ister misiniz?"
@@ -534,6 +542,7 @@ categories.push(
 );
 categories.push(
     <Category 
+        key="9999"
         data={nimet}
         name="Nimet Serisi"
         desc=""

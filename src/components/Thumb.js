@@ -1,7 +1,5 @@
 import React from 'react';
 import '../index.css';
-import SimpleImageSlider from "react-simple-image-slider";
-import { isMobile } from "react-device-detect";
 import Carousel from 'nuka-carousel';
 
 
@@ -28,7 +26,7 @@ export default class Thumb extends React.Component{
         let elems =  document.getElementById(id).parentElement.children;
         let neighbours = [];
         for(let i = 0; i < elems.length; i++){
-            if(elems[i].id != id)
+            if(elems[i].id !== id)
             neighbours.push(elems[i]);
         }
         return neighbours;
