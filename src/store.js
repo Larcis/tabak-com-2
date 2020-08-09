@@ -104,7 +104,7 @@ let earth = [
         ]
     },
     {
-        "price": "75",
+        "price": "100",
         "imgs": [
             { url: require("./images/earth/IMG_2023.JPG")},
             { url: require("./images/earth/IMG_2022.JPG") },
@@ -349,7 +349,7 @@ let nimet = [
 
 let soyut_cicek = [
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2020.JPG")},
             { url: require("./images/soyut_cicek/IMG_2019.JPG")},
@@ -357,7 +357,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2040.JPG")},
             { url: require("./images/soyut_cicek/IMG_2039.JPG")},
@@ -365,7 +365,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2087.JPG")},
             { url: require("./images/soyut_cicek/IMG_2088.JPG")}
@@ -381,7 +381,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2070.JPG")},
             { url: require("./images/soyut_cicek/IMG_2071.JPG")},
@@ -389,7 +389,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2075.JPG")},
             { url: require("./images/soyut_cicek/IMG_2076.JPG")},
@@ -397,7 +397,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2087.JPG")},
             { url: require("./images/soyut_cicek/IMG_2088.JPG")},
@@ -405,7 +405,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2110.JPG")},
             { url: require("./images/soyut_cicek/IMG_2111.JPG")},
@@ -413,7 +413,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1992.JPG")},
             { url: require("./images/soyut_cicek/IMG_1991.JPG")},
@@ -422,7 +422,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1995.JPG")},
             { url: require("./images/soyut_cicek/IMG_1996.JPG")},
@@ -431,7 +431,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1998.JPG")},
             { url: require("./images/soyut_cicek/IMG_1999.JPG")}
@@ -439,7 +439,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2003.JPG")},
             { url: require("./images/soyut_cicek/IMG_2002.JPG")}
@@ -447,7 +447,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2014.JPG")},
             { url: require("./images/soyut_cicek/IMG_2013.JPG")}
@@ -455,7 +455,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "50",
+        "price": "150",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2015.JPG")},
             { url: require("./images/soyut_cicek/IMG_2017.JPG")},
@@ -471,20 +471,59 @@ categories.push(
     <Category 
         data={animal_serisi}
         name="Animal Serisi"
-        desc="22 cm porselen tabak üstü el boyaması"
+        desc="22 cm porselen tabak üstü el boyaması."
         thumb={require("./images/animal_serisi/IMG_2027.JPG")}
     />
 );
-
+categories.push(
+    <Category 
+        data={istanbul}
+        name="Istanbul Serisi"
+        desc="Rüya kent hediye etmek ister misiniz?"
+        thumb={require("./images/istanbul/IMG_2009.JPG")}
+    />
+);
+categories.push(
+    <Category 
+        data={kozel}
+        name="Kisiye Özel Serisi"
+        desc="Istediginiz fotografın tabaga el çizimi karakterlere dönüsmesini ister misiniz? 
+              Fiyat belirlemesi fotograftaki figur sayısına göre belirlenmektedir."
+        thumb={require("./images/kozel/4.JPG")}
+    />
+);
+categories.push(
+    <Category 
+        data={imge}
+        name="Imge Serisi"
+        desc="Ünlü ressamımız Ergin Inan'ın eserlerinden esinlenilmistir."
+        thumb={require("./images/imge/IMG_2033.JPG")}
+    />
+);
+categories.push(
+    <Category 
+        data={soyut_cicek}
+        name="Soyut Çiçek Serisi"
+        desc="Dogadan ilhamla"
+        thumb={require("./images/soyut_cicek/IMG_2040.JPG")}
+    />
+);
 categories.push(
     <Category 
         data={earth}
         name="Earth Serisi"
-        desc="Dünya serisi tabaklara isim baş harflerinizi yazdırabilirsiniz"
+        desc="Dünya serisi tabaklara, isim bas harflerinizi yazdırabilirsiniz."
         thumb={require("./images/earth/IMG_5234.JPG")}
     />
 );
-
+categories.push(
+    <Category 
+        data={cicek}
+        name="Çiçek Serisi"
+        desc="Evinize renk katacak güzeller burada."
+        thumb={require("./images/cicek/IMG_2024.JPG")}
+    />
+);
 categories.push(
     <Category 
         data={girls}
@@ -493,57 +532,12 @@ categories.push(
         thumb={require("./images/girls/IMG_1993.JPG")}
     />
 );
-
-categories.push(
-    <Category 
-        data={cicek}
-        name="Çiçek Serisi"
-        desc="Evinize renk katacak güzeller"
-        thumb={require("./images/cicek/IMG_2024.JPG")}
-    />
-);
-
-categories.push(
-    <Category 
-        data={imge}
-        name="Imge Serisi"
-        desc="Ünlü ressamımız Ergin İnan'ın eserlerinden esinlenilmiştir"
-        thumb={require("./images/imge/IMG_2033.JPG")}
-    />
-);
-
-categories.push(
-    <Category 
-        data={istanbul}
-        name="Istanbul Serisi"
-        desc="Rüya şehir"
-        thumb={require("./images/istanbul/IMG_2009.JPG")}
-    />
-);
-categories.push(
-    <Category 
-        data={kozel}
-        name="Kişiye Özel Serisi"
-        desc="İstediğiniz fotoğrafın tabağa el çizimi karakterlere dönüşmesini ister misiniz?"
-        thumb={require("./images/kozel/4.JPG")}
-    />
-);
-
 categories.push(
     <Category 
         data={nimet}
         name="Nimet Serisi"
         desc=""
         thumb={require("./images/nimet/IMG_2067.JPG")}
-    />
-);
-
-categories.push(
-    <Category 
-        data={soyut_cicek}
-        name="Soyut Çiçek Serisi"
-        desc="Doğadan ilhamla"
-        thumb={require("./images/soyut_cicek/IMG_2040.JPG")}
     />
 );
 
