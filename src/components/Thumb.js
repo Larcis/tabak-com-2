@@ -97,7 +97,7 @@ export default class Thumb extends React.Component{
                    {this.Images()}
                 </Carousel>
                 
-                <p className="textCenter">{(this.props.data.price ? (this.props.data.price + " ₺"): "")}</p>    
+                <p className="textCenter">{this.props.data.price.length == 0 ? "┌  Satıldı :(  ┘" : this.props.data.price.length == 1 ? "": (this.props.data.price + " ₺")}</p>    
             </div>
         );
     }

@@ -77,7 +77,7 @@ let cicek = [
         ]
     },
     {
-        "price": "100",
+        "price": "",
         "imgs": [
             { url: require("./images/cicek/IMG_2084.JPG")},
             { url: require("./images/cicek/IMG_2085.JPG")},
@@ -104,7 +104,7 @@ let earth = [
         ]
     },
     {
-        "price": "100",
+        "price": "",
         "imgs": [
             { url: require("./images/earth/IMG_2023.JPG")},
             { url: require("./images/earth/IMG_2022.JPG") },
@@ -243,7 +243,7 @@ let imge = [
 
 let istanbul = [
     {
-        "price": "100",
+        "price": "",
         "imgs": [
             { url: require("./images/istanbul/IMG_2009.JPG")},
             { url: require("./images/istanbul/IMG_2008.JPG")},
@@ -251,7 +251,7 @@ let istanbul = [
         ]
     },
     {
-        "price": "50",
+        "price": "",
         "imgs": [
             { url: require("./images/istanbul/IMG_2050.JPG")},
             { url: require("./images/istanbul/IMG_2051.JPG")}
@@ -276,28 +276,28 @@ let istanbul = [
 
 let kozel = [
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/1.JPEG")},
             { url: require("./images/kozel/8.JPG")}
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/11.JPG")},
             { url: require("./images/kozel/10.JPG") }
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/14.JPG")},
             { url: require("./images/kozel/7.JPG") }
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/4.JPG")},
             { url: require("./images/kozel/21.JPG")},
@@ -305,19 +305,19 @@ let kozel = [
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/6.JPG")}
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/20.jpeg")}
         ]
     },
     {
-        "price": "",
+        "price": " ",
         "imgs": [
             { url: require("./images/kozel/24.jpeg")}
         ]

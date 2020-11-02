@@ -54,7 +54,7 @@ i {
 }
 
 .thumb {
-	border-style: none;
+	border: 2px solid rgba(255,255,255,0.0);
 	display: table-cell;
 	transition: all 0.35s ease-in;
 	z-index: -1;
