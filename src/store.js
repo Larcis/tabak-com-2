@@ -5,28 +5,28 @@ var categories = [];
 
 let animal_serisi = [
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/animal_serisi/IMG_1985.JPG") },
             { url: require("./images/animal_serisi/IMG_1984.JPG")}
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/animal_serisi/IMG_2027.JPG")},
             { url: require("./images/animal_serisi/IMG_2026.JPG") }
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/animal_serisi/IMG_1987.JPG")},
             { url: require("./images/animal_serisi/IMG_1986.JPG") }
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/animal_serisi/IMG_2081.JPG")},
             { url: require("./images/animal_serisi/IMG_2082.JPG")},
@@ -38,7 +38,7 @@ let animal_serisi = [
 
 let cicek = [
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/cicek/IMG_2004.JPG")},
             { url: require("./images/cicek/IMG_2006.JPG")},
@@ -46,7 +46,7 @@ let cicek = [
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/cicek/IMG_2010.JPG")},
             { url: require("./images/cicek/IMG_2011.JPG") },
@@ -54,14 +54,14 @@ let cicek = [
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/cicek/IMG_2024.JPG")},
             { url: require("./images/cicek/IMG_2025.JPG") }
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/cicek/IMG_2041.JPG")},
             { url: require("./images/cicek/IMG_2042.JPG")},
@@ -69,7 +69,7 @@ let cicek = [
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/cicek/IMG_2045.JPG")},
             { url: require("./images/cicek/IMG_2046.JPG")},
@@ -91,14 +91,14 @@ let cicek = [
 
 let earth = [
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_1988.JPG")},
             { url: require("./images/earth/IMG_1989.JPG")}
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_5234.JPG")}
         ]
@@ -112,27 +112,27 @@ let earth = [
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_2090.JPG")},
             { url: require("./images/earth/IMG_2091.JPG") }
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_2149.JPG")},
             { url: require("./images/earth/IMG_2150.JPG")}
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_2151.JPG")}
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/earth/IMG_2152.JPG")}
         ]
@@ -143,21 +143,21 @@ let earth = [
 
 let girls = [
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/girls/IMG_1993.JPG")},
             { url: require("./images/girls/IMG_1994.JPG")}
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/girls/IMG_2049.JPG")},
             { url: require("./images/girls/IMG_2048.JPG") }
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/girls/IMG_2101.JPG")},
             { url: require("./images/girls/IMG_2099.JPG")},
@@ -170,7 +170,7 @@ let girls = [
 
 let imge = [
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/imge/IMG_2028.JPG")},
             { url: require("./images/imge/IMG_2029.JPG")},
@@ -178,14 +178,14 @@ let imge = [
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/imge/IMG_2032.JPG")},
             { url: require("./images/imge/IMG_2031.JPG")}
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/imge/IMG_2033.JPG")},
             { url: require("./images/imge/IMG_2034.JPG")},
@@ -193,14 +193,14 @@ let imge = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/imge/IMG_2074.JPG")},
             { url: require("./images/imge/IMG_2073.JPG")}
         ]
     },
     {
-        "price": "100",
+        "price": "150",
         "imgs": [
             { url: require("./images/imge/IMG_2092.JPG")},
             { url: require("./images/imge/IMG_2093.JPG")},
@@ -208,7 +208,7 @@ let imge = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/imge/IMG_2096.JPG")},
             { url: require("./images/imge/IMG_2097.JPG")},
@@ -216,7 +216,7 @@ let imge = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/imge/IMG_2102.JPG")},
             { url: require("./images/imge/IMG_2103.JPG")},
@@ -224,14 +224,14 @@ let imge = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/imge/IMG_2036.JPG")},
             { url: require("./images/imge/IMG_2037.JPG")}
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/imge/IMG_2058.JPG")},
             { url: require("./images/imge/IMG_2059.JPG")},
@@ -258,7 +258,7 @@ let istanbul = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/istanbul/IMG_2054.JPG")},
             { url: require("./images/istanbul/IMG_2053.JPG")},
@@ -266,7 +266,7 @@ let istanbul = [
         ]
     },
     {
-        "price": "75",
+        "price": "125",
         "imgs": [
             { url: require("./images/istanbul/IMG_2107.JPG")}
         ]
@@ -328,7 +328,7 @@ let kozel = [
 
 let nimet = [
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/nimet/IMG_2063.JPG")},
             { url: require("./images/nimet/IMG_2062.JPG")},
@@ -336,7 +336,7 @@ let nimet = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/nimet/IMG_2067.JPG")},
             { url: require("./images/nimet/IMG_2069.JPG")},
@@ -344,7 +344,7 @@ let nimet = [
         ]
     },
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/nimet/IMG_2108.JPG")},
             { url: require("./images/nimet/IMG_2109.JPG")}
@@ -355,7 +355,7 @@ let nimet = [
 
 let soyut_cicek = [
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2020.JPG")},
             { url: require("./images/soyut_cicek/IMG_2019.JPG")},
@@ -363,7 +363,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2040.JPG")},
             { url: require("./images/soyut_cicek/IMG_2039.JPG")},
@@ -371,7 +371,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2087.JPG")},
             { url: require("./images/soyut_cicek/IMG_2088.JPG")}
@@ -379,7 +379,7 @@ let soyut_cicek = [
     },
 
     {
-        "price": "50",
+        "price": "100",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2055.JPG")},
             { url: require("./images/soyut_cicek/IMG_2056.JPG")},
@@ -387,7 +387,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2070.JPG")},
             { url: require("./images/soyut_cicek/IMG_2071.JPG")},
@@ -395,7 +395,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2075.JPG")},
             { url: require("./images/soyut_cicek/IMG_2076.JPG")},
@@ -403,7 +403,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2087.JPG")},
             { url: require("./images/soyut_cicek/IMG_2088.JPG")},
@@ -411,7 +411,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2110.JPG")},
             { url: require("./images/soyut_cicek/IMG_2111.JPG")},
@@ -419,7 +419,7 @@ let soyut_cicek = [
         ]
     },
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1992.JPG")},
             { url: require("./images/soyut_cicek/IMG_1991.JPG")},
@@ -428,7 +428,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1995.JPG")},
             { url: require("./images/soyut_cicek/IMG_1996.JPG")},
@@ -437,7 +437,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_1998.JPG")},
             { url: require("./images/soyut_cicek/IMG_1999.JPG")}
@@ -445,7 +445,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2003.JPG")},
             { url: require("./images/soyut_cicek/IMG_2002.JPG")}
@@ -453,7 +453,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2014.JPG")},
             { url: require("./images/soyut_cicek/IMG_2013.JPG")}
@@ -461,7 +461,7 @@ let soyut_cicek = [
     },
     
     {
-        "price": "150",
+        "price": "200",
         "imgs": [
             { url: require("./images/soyut_cicek/IMG_2015.JPG")},
             { url: require("./images/soyut_cicek/IMG_2017.JPG")},
